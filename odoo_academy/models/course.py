@@ -4,7 +4,7 @@ from odoo import models, fields, api, _
 
 class Course(models.Model):
     
-    _name = 'academy.course'
+    _name = 'model_academy_course'
     _description = 'Course Info'
 
     name = fields.Char(string='Title', required=True)
